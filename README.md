@@ -6,8 +6,8 @@ Readme 파일을 작성하기 위해서 정리해놓는 마크업 언어 사용�
 ---
 
 ## 제목
-.#의 갯수에 따라서 html의 h1 태그와 동일하게 사용이 가능하다.
-<br/>
+.#의 갯수에 따라서 html의 h1 태그와 동일하게 사용이 가능하다.  
+
 ex) h1 제일 큼 h2 그 다음으로 큰..
 <br/>
 ![image](https://github.com/user-attachments/assets/d0c4b299-ae51-4eb3-9132-1b9d171e857c)
