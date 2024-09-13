@@ -10,7 +10,7 @@ Readme 파일을 작성하기 위해서 정리해놓는 마크업 언어 사용�
 
 사용하는 필수적인 요소들만 정리해놓습니다.  
 
-현재, 정리된 사용법 : **제목**, **줄바꿈**, **이미지 업로드**, **하이퍼링크**
+현재, 정리된 사용법 : **제목**, **줄바꿈**, **이미지 업로드**, **하이퍼링크**, **코드표기**
 <br/><br/><br/>
 ## 🌜알짜배기 표기
 
@@ -63,9 +63,28 @@ read.me를 작성할 때 켜놓고 하면 수월하겠지??
 
 ![image](https://github.com/user-attachments/assets/bdb01e4a-8193-4eda-affc-734c70127999)
 
+
 <br/><br/><br/>
 ## 🌜텍스트 강조
 1. Bold(굵게) : **를 텍스트 앞뒤로 적어준다.
 ![image](https://github.com/user-attachments/assets/0ef32547-0279-4a12-b556-3d471aa4fdb1)
 2. 취소선 : ~~를 텍스트 앞뒤로 적어준다.
 ![image](https://github.com/user-attachments/assets/641b3842-21c7-45df-b90c-b9edda52d956)
+
+
+<br/><br/><br/>
+## 🌜코드표기
+![image](https://github.com/user-attachments/assets/ae44d7af-8932-4b93-96f0-75649634806f)
+<br/><br/><br/>
+![image](https://github.com/user-attachments/assets/fe5adabe-efd9-45b4-ad24-1bdd05f5c7f0)
+<br/><br/>
+```java
+@Controller
+public class MainController {
+  @GetMapping(value = "/main")
+  public String myMethod() {
+
+    return "myMethod";
+  }
+}
+```
